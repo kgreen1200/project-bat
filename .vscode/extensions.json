@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "njpwerner.autodocstring",
+        "oderwat.indent-rainbow",
+        "ms-python.python",
+    ]
+}

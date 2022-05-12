@@ -1,0 +1,36 @@
+{
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off",
+    "editor.rulers": [
+        100
+    ],
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        },
+        "editor.tabSize": 2,
+    },
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--config=${workspaceFolder}/.github/linters/pyproject.toml"
+    ],
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=${workspaceFolder}/.github/linters/.flake8",
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--config=${workspaceFolder}/.github/linters/.pylintrc",
+    ],
+    "python.sortImports.args": [
+        "--settings-file=${workspaceFolder}/.github/linters/pyproject.toml"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+}
