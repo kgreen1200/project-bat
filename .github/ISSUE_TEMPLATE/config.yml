@@ -1,0 +1,8 @@
+# File:         config.yml
+# Description:  Configures issues for the repository
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Project Discussion
+    url: https://github.com/github_username/repo_name/discussions
+    about: Please discuss the project here!

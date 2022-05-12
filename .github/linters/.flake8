@@ -1,0 +1,6 @@
+# File:         .github/linters/.flake8
+# Description:  flake8 Configuration
+
+[flake8]
+max-line-length = 100
+extend-ignore = E203

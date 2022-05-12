@@ -1,0 +1,4 @@
+# File:         .markdownlint.yml
+# Description:  Allows VSCode to use the same linting as GitHub Super Linter with markdownlint extension
+
+extends: "./.github/linters/.markdown-lint.yml"
