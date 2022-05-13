@@ -12,6 +12,7 @@ on:
       - master
     paths:
       - .github/labels.yml
+      - .github/workflows/label_update.yml
 
 jobs:
   labels:
@@ -23,4 +24,4 @@ jobs:
       - name: 🪧 Run Label Syncer
         uses: micnncim/action-label-syncer@v1.3.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_SECRET }}

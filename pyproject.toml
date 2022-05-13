@@ -1,0 +1,5 @@
+# File:         pyproject.toml
+# Description:  Sets up build system for the python package
+[build-system]
+requires = ["setuptools>=54"]
+build-backend = "setuptools.build_meta"

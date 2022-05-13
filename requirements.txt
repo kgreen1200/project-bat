@@ -1,0 +1,14 @@
+# File:         requirements.txt
+# Description:  Contains the requirements for development
+#               Install dev environment with
+#               pip install -r requirements.txt
+#               For DEV ONLY, for end users check setup.cfg
+
+# Project Requirements
+
+# Linting and Testing
+black
+flake8
+isort
+pylint
+pytest
