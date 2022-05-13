@@ -27,3 +27,4 @@ jobs:
         with:
           release-type: python
           changelog-path: docs/changelog.md
+          token: ${{ secrets.RELEASE_SECRET }}
